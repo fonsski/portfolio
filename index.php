@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +28,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Main CSS -->
     <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
 <body>
     <!-- Шапка -->
     <header>
@@ -171,7 +174,7 @@
                         <a href="https://noteapp.example.com" class="project-link live" target="_blank">
                             <i class="fas fa-external-link-alt"></i> Live Demo
                         </a>
-                        <a href="https://github.com/username/noteapp" class="project-link github" target="_blank">
+                        <a href="https://github.com/fonsski/NoteApp" class="project-link github" target="_blank">
                             <i class="fab fa-github"></i> GitHub
                         </a>
                     </div>
@@ -184,7 +187,7 @@
                     <h3>WeatherApp</h3>
                     <p>Weather forecast application</p>
                     <div class="project-links">
-                        <a href="https://github.com/username/weatherapp" class="project-link github" target="_blank">
+                        <a href="https://github.com/fonsski/pagoda" class="project-link github" target="_blank">
                             <i class="fab fa-github"></i> GitHub
                         </a>
                     </div>
@@ -197,7 +200,7 @@
                     <h3>Quizzy</h3>
                     <p>Interactive quiz platform</p>
                     <div class="project-links">
-                        <a href="https://github.com/username/quizzy" class="project-link github" target="_blank">
+                        <a href="https://github.com/fonsski/quizzy" class="project-link github" target="_blank">
                             <i class="fab fa-github"></i> GitHub
                         </a>
                     </div>
@@ -213,46 +216,48 @@
     </section>
     <!-- Подвал -->
     <footer>
-            <nav>
-                <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="social-links">
-                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-telegram"></i></a> <a href="#" class="social-link"><i class="fab fa-vk"></i></a> </div>
-            <p>Created by fonsski</p>
-        </footer>
-        <!-- Modal -->
-        <div id="contactModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Contact Me</h2>
-                <form id="contactForm">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-telegram"></i></a> <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
         </div>
+        <p>Created by fonsski</p>
+    </footer>
+    <!-- Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
 </body>
 <!-- Подключение скрипта для сжатия шапки -->
 <script src="/assets/js/header.js"></script>
 <!-- Модальное окно -->
 <script src="/assets/js/modal.js"></script>
+
 </html>
